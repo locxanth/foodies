@@ -1,19 +1,68 @@
 hr{
     border: 2px;
-    border-color: red;
+    border-color: rgb(255, 0, 0);
     border-style: solid;
 }
 
 #navbar{
     display: flex;
+    align-items: center;
+    background-color: rgb(106, 2, 2);
 
 }
 #logo{
     width: 10%;
+    text-align: center;
+
 }
 #navlinks{
     width: 70%;
+    text-align: center;
+
 }
 #media{
     width: 20%;
+    text-align: center;
+
 }
+#logoimg{
+    height: 90px;
+    margin: 4px 6px;
+    border: 2px rgb(162, 2, 2) solid;
+     border-radius:50px;
+
+}
+#links{
+    display: flex;
+}
+
+#links li a{
+    padding: 5px 45px;
+    text-decoration: none;
+    color: azure;
+     border-radius: 20px;
+}
+#links li a:hover{
+    background-color: aliceblue;
+    color: rgb(36, 35, 43);
+    transition: 1s;
+    border-bottom: 5px solid rgba(103, 14, 14, 0.759);
+    }
+
+    #currentitem{
+        border: 2px solid white;
+        border-radius: 20px;
+    }
+
+.lilinks{
+    list-style: none;
+    font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+#media img {
+    width: 100px;
+}
+
+
